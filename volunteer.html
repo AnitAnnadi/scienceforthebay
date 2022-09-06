@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- styles css -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Volunteer | Science For The Bay</title>
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="./fontawesome-free-6.1.1-web/css/all.css" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="loader-container">
+      <div class="loader"></div>
+    </div>
+    <div class="hide content">
+      <!-- header -->
+      <header>
+        <!-- navbar -->
+        <nav class="nav" id="nav">
+          <div class="nav-center section-center">
+            <div class="nav-header">
+              <p class="nav-title">
+                <span class="color">science for</span> the bay
+              </p>
+              <button class="nav-btn" id="nav-btn">
+                <i class="fa-solid fa-bars"></i>
+              </button>
+            </div>
+            <!-- nav links -->
+            <ul class="nav-links">
+              <li><a href="index.html" class="nav-link">home</a></li>
+              <li>
+                <a href="projects.html" class="nav-link">projects</a>
+              </li>
+              <li>
+                <a href="team.html" class="nav-link">our team</a>
+              </li>
+              <li>
+                <a href="volunteer.html" class="nav-link">volunteer</a>
+              </li>
+              <li>
+                <a href="partner.html" class="nav-link">partner</a>
+              </li>
+            </ul>
+            <!-- end of nav links -->
+          </div>
+        </nav>
+        <!-- end of navbar -->
+         <!-- contact -->
+      <section class="form-section">
+        <form action="" class="form">
+              <h2 class="form-heading">become a volunteer</h2>
+              <div class="form-underline"></div>
+              <label for="name" class="form-title first-input">name</label>
+              <input
+                type="text"
+                name="volunteer-name"
+                id="volunteer-name"
+                class="form-control"
+              />
+              <label for="email" class="form-title">email</label>
+              <input
+                type="email"
+                name="volunteer-email"
+                id="volunteer-email"
+                class="form-control"
+              />
+
+              <p class="form-title">which subjects would you like to teach?</p>
+              <div class="mutliple-choice">
+                  <label class="container">chemistry
+                    <input type="checkbox" name="volunteer-subject-1" value="chemistry">
+                    <span class="checkmark"></span>
+                  </label>
+                    <label class="container">coding
+                    <input type="checkbox" name="volunteer-subject-2" value="coding">
+                    <span class="checkmark"></span>
+                  </label>
+                    <label class="container">robotics
+                    <input type="checkbox" name="volunteer-subject-3" value="robotics">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="container">anatomy
+                    <input type="checkbox" name="volunteer-subject-4" value="anatomy">
+                    <span class="checkmark"></span>
+                  </label>
+                </div>  
+                <p class="form-title">can you help with marketing?</p>
+              <div class="mutliple-choice">
+                  <label class="container">yes
+                    <input type="radio" name="marketing" value="yes">
+                    <span class="checkmark radio-btn"></span>
+                  </label>
+                    <label class="container">no
+                    <input type="radio" name="marketing" value="no">
+                    <span class="checkmark radio-btn"></span>
+                  </label>
+              </div>
+            <button type="submit" class="btn form-submit">submit</button>
+          </form>
+      </section>
+ <!-- footer -->
+      <footer class="footer">
+        <p class="footer-text">
+          contact us
+          <a
+            href="mailto:scienceforthebay@gmail.com"
+            target="_blank"
+            class="footer-email"
+            >scienceforthebay@gmail.com</a
+          >
+        </p>
+        <p class="footer-text">&copy;2022 by science for the bay</p>
+      </footer>
+      <!-- end of footer -->
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
